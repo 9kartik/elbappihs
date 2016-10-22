@@ -32,8 +32,27 @@
 }
 .fxd{
 	position: fixed;
+	z-index: 2;
 }
 .lbck{
 	    background:linear-gradient(rgba(9, 251, 255, 0),rgba(9, 251, 255, 0.3)),fixed no-repeat center url(https://app.shippable.com/mktg/images/background-gears.jpg);
 	    color: white;
+}
+.icomg{
+	float:right;
+}
+.marbtm{
+	margin-bottom: 1em;
+}
+.active{
+	display: block;
+}
+.inactive{
+	display: none;
+}
+[class*="active"]{
+	padding-top: 1em;
+}
+ul{
+	padding-left: 0;
 }
