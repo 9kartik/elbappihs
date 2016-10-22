@@ -1,6 +1,39 @@
 .centre{
 	text-align: center;
 }
+.oranged{
+	background:#FFA97F;
+}
 .blued{
-	background:blue;
+	background:#959AFF;
+}
+.separator{
+	padding:1em;
+}
+.menu{
+	background: black;
+}
+.links:hover{
+	/* background: rgba(255,255,255,.15); */
+	cursor: pointer;
+}
+.links,.links2{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color:white;
+}
+.rght{
+	float:right;
+}
+.wht-btn{
+	color:white;
+	background: transparent;
+	border:none;
+}
+.fxd{
+	position: fixed;
+}
+.lbck{
+	    background:linear-gradient(rgba(9, 251, 255, 0),rgba(9, 251, 255, 0.3)),fixed no-repeat center url(https://app.shippable.com/mktg/images/background-gears.jpg);
+	    color: white;
 }
