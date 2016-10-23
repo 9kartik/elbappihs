@@ -1,5 +1,5 @@
 (function myFunction() {
-    setInterval(changer, 1000);
+    setInterval(changer, 3000);
 })();
 var t=0;
 function changer(){
@@ -9,4 +9,10 @@ function changer(){
 		document.querySelector('#id'+(1+i)).className=classes[(t+i)%3]
 	}
 	t=(t+1)%3;
+}
+function next(){
+	t=(t+1)%3
+}
+function previous(){
+	t=(t+2)%3
 }
