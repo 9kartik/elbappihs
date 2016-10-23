@@ -1,4 +1,4 @@
-(function myFunction() {
+/*(function myFunction() {
     setInterval(changer, 3000);
 })();
 var t=0;
@@ -15,4 +15,4 @@ function next(){
 }
 function previous(){
 	t=(t+2)%3
-}
+}*/

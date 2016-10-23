@@ -1,3 +1,9 @@
+*{
+	font-family: 'Segoe UI';
+}
+#id [:not(.browned)]{
+	color:darkgrey;
+}
 .centre{
 	text-align: center;
 }
@@ -7,15 +13,24 @@
 .blued{
 	background:#959AFF;
 }
+.browned{
+	color:#b7410e;
+}
+.greyed{
+	color: darkgrey;
+}
 .separator{
 	padding:1em;
 }
 .menu{
 	background: black;
 }
-.links:hover{
+.links:hover,.linkstxt:hover{
 	/* background: rgba(255,255,255,.15); */
 	cursor: pointer;
+}
+.links:active,.first:active{
+	 background: rgba(255,255,255,.15); 
 }
 .links,.links2{
 	padding-top: 1em;
@@ -35,24 +50,89 @@
 	z-index: 2;
 }
 .lbck{
-	    background:linear-gradient(rgba(9, 251, 255, 0),rgba(9, 251, 255, 0.3)),fixed no-repeat center url(https://app.shippable.com/mktg/images/background-gears.jpg);
+	    background:linear-gradient(rgba(9, 251, 255, 0),rgba(1, 1, 1, 0.4)),fixed no-repeat center url(https://images.unsplash.com/uploads/1412750321034baa5d127/d35c5980?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=5a74a642c8097e88924aa8a636cb24d7);
 	    color: white;
 }
 .icomg{
 	float:right;
 }
-.marbtm{
-	margin-bottom: 1em;
+.jumbotron{
+	margin-bottom: 0;
 }
+blockquote{
+	border-left:none;
+}
+.marbtm{
+	/* margin-bottom: 1em; */
+}/* 
 .active{
 	display: block;
 }
-.inactive{
+.inactivex{
 	display: none;
-}
-[class*="active"]{
+} */
+/* .active{
+	padding-top: 0;
+} */
+/* [class*="active"] */{
 	padding-top: 1em;
 }
 ul{
 	padding-left: 0;
+}
+* {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+.arrow{
+	font-size: 1em;
+	color: white;
+}
+.padtop{
+	padding-top: 1em;
+}
+.padbotm{
+	padding-bottom: 1em;
+}
+.martop{
+	margin-top: 1em;
+}
+.marbotm{
+	margin-bottom: 1em;
+}
+hr{
+	border:1px solid #eee;
+}
+.sat-cust>div{
+	margin-bottom: 1em;
+	margin-top: 1em;
+	/* background: rgba(100,100,100,.2); */
+	text-align: center;/* 
+	border:1px solid black;
+	border-top:none; */
+}
+/* .sat-cust>div>img{
+	width:4em;
+	height:4em;
+} */
+.shpicon{
+	height: 2.5em;
+	float: right;
+}
+.contacts{
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background: black;
+}
+.text-center.sat-cust>div>img {
+    height: 3em;
+    margin: 0 auto;
+}
+.last:hover{
+	background: #eee;
 }
